@@ -1,1 +1,1 @@
-console.log('Hello TYPO3 Usergroup Magdeburg');
+console.log('Hello TYPO3 Usergroup MD');
