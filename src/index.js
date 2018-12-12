@@ -1,0 +1,1 @@
+console.log('Hello TYPO3 Usergroup Magdeburg');

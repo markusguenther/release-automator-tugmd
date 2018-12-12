@@ -1,0 +1,66 @@
+{
+  "name": "release-automator-tugmd",
+  "description": "Test package to show how to automate releases of packages",
+  "homepage": "https://github.com/markusguenther/release-automator-tugmd#readme",
+  "version": "0.0.0",
+  "author": "Markus Günther <info@unikka.de>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markusguenther/release-automator-tugmd.git"
+  },
+  "keywords": [
+    "tugmd",
+    "semver",
+    "semantic-release"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.1",
+    "@semantic-release/git": "^7.0.5",
+    "@semantic-release/release-notes-generator": "^7.1.4",
+    "commitizen": "^3.0.5",
+    "conventional-changelog-eslint": "^3.0.1",
+    "cz-adapter-eslint": "^0.1.2",
+    "semantic-release": "^15.12.4",
+    "travis-deploy-once": "^5.0.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release",
+    "commit": "git-cz"
+  },
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-adapter-eslint"
+    }
+  },
+  "greenkeeper": {
+    "commitMessages": {
+      "initialBadge": "Docs: add Greenkeeper badge",
+      "initialDependencies": "Upgrade: update dependencies",
+      "initialBranches": "Update: whitelist greenkeeper branches",
+      "dependencyUpdate": "Fix: update ${dependency} to version ${version}",
+      "devDependencyUpdate": "Upgrade: update ${dependency} to version ${version}",
+      "dependencyPin": "Update: pin ${dependency} to ${oldVersionResolved}",
+      "devDependencyPin": "Update: pin ${dependency} to ${oldVersionResolved}",
+      "closes": "\n\nCloses #${number}"
+    },
+    "prTitles": {
+      "initialPR": "Update dependencies to enable Greenkeeper!!!",
+      "initialPrBadge": "Add badge to enable Greenkeeper!!!!",
+      "initialPrBadgeOnly": "Add Greenkeeper badge!!!",
+      "initialSubgroupPR": "Update dependencies for ${group}!!!",
+      "basicPR": "Update ${dependency} to the latest!!!",
+      "groupPR": "Update ${dependency} in group ${group} to the latest!!!!"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/markusguenther/release-automator-tugmd/issues"
+  },
+  "main": "src/index.js"
+}
