@@ -2,7 +2,7 @@
   "name": "release-automator-tugmd",
   "description": "Test package to show how to automate releases of packages",
   "homepage": "https://github.com/markusguenther/release-automator-tugmd#readme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Markus Günther <info@unikka.de>",
   "repository": {
     "type": "git",
